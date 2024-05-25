@@ -182,7 +182,7 @@ def save_to_csv(folder_path,output_file):
                 print(f"{filename} is not a PE file")
     
 def main():
-    save_to_csv(r"/home/tienloc/lab6/DikeDataset/files/benign","malware.csv") 
+    save_to_csv(r"/home/tienloc/lab6/DikeDataset/files/malware","malware.csv") 
 
 if __name__ == "__main__":
     main()
